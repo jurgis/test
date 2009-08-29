@@ -5,3 +5,5 @@ in nice colors in the TextMate.
 
 OK, I found it!
 I needed to change COMMIT_EDITMSG file to Diff format in the TM.
+
+Ops ... one new line
