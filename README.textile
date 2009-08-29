@@ -7,3 +7,6 @@ OK, I found it!
 I needed to change COMMIT_EDITMSG file to Diff format in the TM.
 
 Ops ... one new line
+
+# Adding a line here
+# and another line in dev branch
