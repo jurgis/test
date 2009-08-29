@@ -1,2 +1,9 @@
 h2. Juts playing with a textile
 
+*Some more lines*
+
+h1. header 1
+
+h2. Text...
+
+h3. Text...
