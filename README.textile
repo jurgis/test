@@ -1,4 +1,7 @@
-h2. README
+h2. Working with git
 
-Just testing git and github.com
-One more line
+Just wonder why *git commit -v -a* does not show the diff
+in nice colors in the TextMate.
+
+OK, I found it!
+I needed to change COMMIT_EDITMSG file to Diff format in the TM.
