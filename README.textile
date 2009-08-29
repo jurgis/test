@@ -1,5 +1,4 @@
-h1. README
+h2. README
 
 Just testing git and github.com
-
 One more line
