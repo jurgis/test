@@ -8,6 +8,7 @@ type to Diff in TM.
 cat .git/config
 ===============
 <pre>
+<code>
 [core]
 	repositoryformatversion = 0
 	filemode = true
@@ -17,6 +18,7 @@ cat .git/config
 [remote "origin"]
 	url = git@github.com:jurgis/test.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+</code>
 </pre>
 
 +Added those lines+
