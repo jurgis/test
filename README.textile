@@ -1,12 +1,21 @@
-h2. Working with git
+h2. GIT tricks I learned by experimenting
 
-Just wonder why *git commit -v -a* does not show the diff
-in nice colors in the TextMate.
+*git remote add origin git@github.com:jurgis/test.git*
+Then add a line in .git/config under [remote "origin"]
+*push = refs/heads/master:refs/heads/master*
 
-OK, I found it!
-I needed to change COMMIT_EDITMSG file to Diff format in the TM.
+If diff output does not have colors change COMMIT_EDITMSG
+type to Diff in TM.
 
-Ops ... one new line
-
-# Adding a line here
-# and another line in dev branch
+cat .git/config
+===============
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:jurgis/test.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	push = refs/heads/master:refs/heads/master
