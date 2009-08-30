@@ -26,3 +26,5 @@ Added those lines
   merge = refs/heads/master
 And removed following line
 	push = refs/heads/master:refs/heads/master
+
+And now I want to push and pull the dev branch to the github.
