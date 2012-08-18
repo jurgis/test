@@ -1,3 +1,4 @@
 h2. Test1
 
 Some added changes
+New changes to test that git is working as expected
